@@ -157,6 +157,10 @@ header li a:hover {
     margin-bottom: 25px;
 }
 
+#MENU .food {
+  margin-bottom: 55px;
+}
+
 #MENU .menu-item dd {
     width: 13%;
     text-align: right;
