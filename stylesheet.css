@@ -247,35 +247,43 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-                                        #MENU {
-                                            .menu-content {
-                                                display: flex;
-                                                flex-direction: column;
-                                            }
-                                            .menu-item {
-                                                width: 100%;
-                                                padding: 0 45px;
-                                                &:first-child {
-                                                    border-right: solid 0px #000;
-                                                }
-                                            }
-                                        }
-                                        #ABOUT {
-                                            ul {
-                                                display: flex;
-                                                flex-direction: column;
-                                                justify-content: space-between;
-                                                flex-wrap: wrap;
-                                                margin-bottom: 40px;
-                                            }
-                                            li {
-                                                list-style: none;
-                                                width: 100%;
-                                                line-height: 2;
-                                                text-align: left;
-                                                padding: 2%;
-                                            }
-                                        }
-
-
+  #MENU .menu-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #MENU .menu-item {
+    width: 100%;
+    padding: 0 45px;
+  }
+  #MENU .menu-item:first-child {
+    border-right: solid 0px #000;
+  }
+  #ABOUT ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  #ABOUT li {
+    list-style: none;
+    width: 100%;
+    line-height: 2;
+    text-align: left;
+    padding: 2%;
+  }
+}
 /*# sourceMappingURL=stylesheet.css.map */
