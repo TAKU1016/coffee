@@ -241,7 +241,10 @@ header li a:hover {
 }
 
 #ABOUT .btn span {
+  position: relative;
   display: block;
+  width: 100%;
+  height: 100%;
 }
 
 #ABOUT .btn span::before, #ABOUT .btn span::after {
